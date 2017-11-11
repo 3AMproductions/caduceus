@@ -1,0 +1,305 @@
+/*--------------------- BODY ---------------------*/
+html {
+	background: #A0A0A0;
+	color: white;
+	font-family: "Verdana", "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+	font-size: 80%;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	/* http://www.splintered.co.uk/experiments/49/ */
+	min-height: 100%;
+	margin-bottom: 1px;
+}
+
+body {
+  margin:0;
+	padding: 0 0 50px;
+}
+
+
+/********************* TOP ELEMENTS *******************/
+
+#header{
+	margin-top:50px;
+	background: url('images/titlebarbottom.gif') no-repeat bottom;
+	clear: both;
+	overflow: auto;
+	padding-bottom: 19px;
+}
+
+
+/************************** CONTENT SECTIONS **********************/
+
+#containerleft{
+	background: #123797 url('images/navcontinued.gif') repeat-y left;
+	text-align: left;
+	margin: 0px 20px;
+	padding: 0px;
+}
+
+#containerright{
+	background: url('images/right.gif') repeat-y right;
+}
+
+#topmiddle{
+	background: url('images/topmiddle.gif') repeat-x;
+	height: 32px;
+	width: auto;
+	clear: both;
+	padding: 0px;
+}
+
+#topleft{
+	background: url('images/topleft.gif') no-repeat;
+	float: left;
+	width: 54px;
+	height: 32px;
+}
+
+#topright{
+	background: url('images/topright.gif') no-repeat;
+	float: right;
+	width: 40px;
+	height: 32px;
+}
+
+#navholder { float:left; position:relative; z-index:6; font-size:2em; width:8em; font-family: "Eurostile", "Verdana", "Lucida Sans Unicode", sans-serif; color:red;}
+#navtop { position: relative; top: 0px; left: 0px; margin: 0px; padding: 0px; height: 48px; background: url('images/navtop.gif') repeat-x; }
+#navtopleft { background: url('images/navtopleft.gif') no-repeat; float:left; width:42px; height:48px; }
+#navtopright { background: url('images/navtopright.gif') no-repeat; float:right; width:15px; height:48px; }
+#navleft {position:relative; background: url('images/navleft.gif') top left repeat-y; }
+#navright {position:relative; background: url('images/navright.gif') top right repeat-y; }
+#nav { list-style-type:none; margin:0 14px 0 15px; padding:0; padding-left: 12px; position: relative; top: 0px; left: 0px; background: url('images/nav.gif'); }
+#navbottom { margin:0 0 -1px 0; padding:0; left:0; bottom:0; position:relative; height: 13px; background: url('images/navbottom.gif') repeat-x; }
+#navbottomleft { background: url('images/navbottomleft.gif') no-repeat; float:left; width:41px; height:13px; }
+#navbottomright { background: url('images/navbottomright.gif') no-repeat; float:right; width:15px; height:13px; }
+#nav li { padding:5px 0; }
+#nav ul { list-style-type: circle; font-size:.8em; }
+#nav ul li.pdf { list-style-image: url(images/pdf.gif); }
+
+#content{
+	position: relative;
+	background: url('images/top.gif') repeat-x top;
+	font-size:1em;
+	margin:0;
+	margin-right: 12px;
+	padding:0;
+	padding-left: 17em;
+	padding-right: 13px;
+}
+
+.productHolder{
+	background: url('images/titlebar.gif') repeat-y center;
+	margin-top: 25px;
+	text-align: right;
+	border: 3px solid black;
+	padding-right: 10px;
+}
+
+.imageHolder{
+	background: white;
+	margin-right: -10px;
+	text-align: center;
+	overflow: hidden;
+	color: black;
+	font-size: .75em;
+	font-weight: bold;
+}
+
+.tablewrapper{
+	margin-right:-10px;
+}
+
+table{
+  width:100%;
+	border-collapse:collapse;
+}
+
+th, td{
+	width: 33%;
+	text-align: center;
+	padding:.25em;
+	border-right:3px solid black;
+}
+
+th.last, td.last{
+	border-right:0;
+}
+
+th{
+  font-size:1.5em;
+	letter-spacing:.1em;
+	background: url('images/titlebar.gif') center;
+}
+
+
+form, fieldset{
+	border: 0;
+	margin:0;
+	padding:5px;
+}
+
+fieldset.viewcart{
+  text-align:center;
+}
+
+#bottommiddle{
+	background: #606060 url('images/bottommiddle.gif') repeat-x;
+	height: 75px;
+	width: auto;
+	clear: both;
+	text-align: left;
+}
+
+#bottomleft{
+	background: url('images/bottomleft.gif') no-repeat;
+	float: left;
+	width: 46px;
+	height: 75px;
+}
+
+#bottomright{
+  display: block;
+/*	background: url('images/bottomright.gif') no-repeat;*/
+	float: right;
+	width: 253px;
+	height: 75px;
+	cursor:hand;
+	font-family:"MS Reference 1";
+	font-size:2em;
+	font-weight:bold;
+	text-align:right;
+}
+
+
+/************************ CLASS FORMATTING ***********************/
+
+.pic{
+	float: right;
+	clear: none;
+	margin: 0px 20px 20px 0px;
+}
+
+.smallLogo{
+	text-align: center;
+}
+
+.validation{
+	color: #123797;
+	font-size: .7em;
+	padding-top: 48px;
+	padding-right: 10px;
+}
+
+.red{
+	color: red;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+/************************** SPECIAL ****************************/
+
+input{
+	vertical-align:bottom;
+}
+
+img{
+  position:relative;
+	vertical-align:bottom;
+}
+
+dt{
+	font-size:1.3em;
+	letter-spacing:.1em;
+	border-bottom:1px dashed white;
+	margin:25px 0 5px;
+	padding:0;
+}
+
+address{
+	margin: 1.3em 5em;
+	font-style:normal;
+} 
+
+acronym{
+  border-bottom:1px dotted;
+	cursor:help;
+}
+
+a acronym, dt acronym{
+  border-bottom:none;
+}
+
+img[src="images/pdf.gif"]{
+	font-size: .75em;
+	font-weight: bold;
+  color:black;
+}
+
+input[type="image"]{
+  font-weight: bold;
+	color: black;
+	text-decoration: underline;
+}
+
+/************************** LINKS ****************************/
+
+#containerleft a:link, #containerleft a:visited { color: #E0E0E0; text-decoration: none; border-bottom: 1px dashed red; }
+#containerleft a:hover, #containerleft a:active { color: red; text-decoration: none; border-bottom:0; }
+#nav a:link, #nav a:visited { color:white; text-decoration: none; border: 0; }
+#nav a:hover, #nav a:active, #nav a:focus { color:red; text-decoration: none; border:0; }
+
+a img{ border: none; }
+
+/************************** AccessKeys for Nav ***********************/
+a em { font-style:normal; text-decoration:underline; }
+
+#nav a { }
+a:first-letter { }
+
+/************************** HEADER STYLES ****************************/
+
+h1 {
+	background: url('images/titlebar.gif') repeat-y center;
+	color: #123797;
+	font-family: "Eurostile", "Trebuchet MS", Veranda, Arial, Helvetica, sans-serif; 
+	font-style: normal;
+	font-weight: bold;
+	font-size: 5em;
+	text-align: center;
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Veranda, Arial, Helvetica, sans-serif; 
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2.4em;
+	margin: 0px;
+}
+
+h3 {
+	font-family: "Trebuchet MS", Veranda, Arial, Helvetica, sans-serif; 
+	font-style: italic;
+	font-size: 1.4em;
+	margin: 0px;
+}
+
+h4 {
+	font-family: "Trebuchet MS", Veranda, Arial, Helvetica, sans-serif; 
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2.2em;
+	letter-spacing:.1em;
+	background: url('images/titlebar.gif') repeat-y center;
+	margin: 0px;
+	margin-right: -10px;
+	padding-right: 3px;
+	padding-left: 15px;
+	border-bottom: 3px solid black;
+	border-right: 0;
+	text-align: left;
+}
